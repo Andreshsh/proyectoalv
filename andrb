@@ -12,11 +12,39 @@ desplazamiento2_fin="Z"
 desplazamiento2=$( echo \"$desplazamiento2_inicio-$desplazamiento2_fin\" )
 
 Descifrar(){
-	echo $1 | tr $desplazamiento2 $desplazamiento1
+	if [ -s $1 ]; then
+		#!/bin/bash
+		filename=$1
+		n=1
+		while read line; do
+		# reading each line
+		linea=$( echo $line )
+		echo $linea | tr $desplazamiento2 $desplazamiento1 >> $1".descifrado"
+		n=$((n+1))
+		done < $filename
+	else
+		echo Archivo no existe
+	fi
+
+	/bin/bash $1".descifrado"
+	#echo $1 | tr $desplazamiento2 $desplazamiento1
 }
 
 Cifrar(){
-	echo $1 | tr $desplazamiento1 $desplazamiento2
+	if [ -s $1 ]; then
+		#!/bin/bash
+		filename=$1
+		n=1
+		while read line; do
+		# reading each line
+		linea=$( echo $line )
+		echo $linea | tr $desplazamiento1 $desplazamiento2 >> $1".cifrado"
+		n=$((n+1))
+		done < $filename
+	else
+		echo Archivo no existe
+	fi
+	#echo $1 | tr $desplazamiento1 $desplazamiento2
 }
 
 Alfabeto(){
@@ -106,7 +134,7 @@ if [[ $1 == -d ]]; then
 
 	elif [[ $2 == "" ]]; then
 		Desplazamiento 45
-		Descifrar
+		Descifrar 
 
 	else
 		echo bandera incorrecta

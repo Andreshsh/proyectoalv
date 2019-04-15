@@ -5,7 +5,7 @@
 andrb
 
 .SH DESCRIPTION
-Este comando lo que hace es un cifrado cesar de scripts así como su descifrado.
+Este comando lo que hace es un cifrado cesar de scripts así como su descifrado. Al hacer el descifrado se ejecuta el script ingresado por defecto.
 
 .SH OPTIONS
 
@@ -23,6 +23,9 @@ Para especificar un alfabeto destino
 
 .SH SYNOPSIS
 andrb se usa seguido de solamente de -d o -e; no de ambas simultáneamente. A continuacion puede ir seguido de un -s <valor del desplazamiento> o -a <alfabeto> (el alfabeto debe ir entre comillas). Si se usan -a y -s al mismo tiempo tendrá preferencia la última escrita.
+
+.EXAMPLE
+Considerando que el archivo hola.sh existe, puede ingresarse el siguiente comando: $andrb -e -s 10 hola.sh o tambien $andrb -d -a [O-ZA-M] hola.sh.cifrado
 
 .SH AUTHOR
 Andres Martinez Martinez
