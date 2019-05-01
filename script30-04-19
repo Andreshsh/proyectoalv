@@ -1,0 +1,931 @@
+Script iniciado (mar 30 abr 2019 13:22:34 CDT
+)[Andres@amm ~]$ #segundo plano procesos
+[Andres@amm ~]$ jobs
+[Andres@amm ~]$ slepp[K[Kep 100 &
+[1] 3493
+[Andres@amm ~]$ sleep 100 &[7Pjobs
+[1]+  Ejecutando              sleep 100 &
+[Andres@amm ~]$ jobssleep 100 &
+[2] 3494
+[Andres@amm ~]$ sleep 100 &[7Pjobs
+[1]-  Ejecutando              sleep 100 &
+[2]+  Ejecutando              sleep 100 &
+[Andres@amm ~]$ killkill[K[K[K[K -19 3493
+[Andres@amm ~]$ kill -19 3493jobs[K
+[1]+  Detenido                sleep 100
+[2]-  Ejecutando              sleep 100 &
+[Andres@amm ~]$ vi hola.txt
+[1;37r[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[37;1H"hola.txt" [New File][2;1H[1m[34m~                                                                                                   [3;1H~                                                                                                   [4;1H~                                                                                                   [5;1H~                                                                                                   [6;1H~                                                                                                   [7;1H~                                                                                                   [8;1H~                                                                                                   [9;1H~                                                                                                   [10;1H~                                                                                                   [11;1H~                                                                                                   [12;1H~                                                                                                   [13;1H~                                                                                                   [14;1H~                                                                                                   [15;1H~                                                                                                   [16;1H~                                                                                                   [17;1H~                                                                                                   [18;1H~                                                                                                   [19;1H~                                                                                                   [20;1H~                                                                                                   [21;1H~                                                                                                   [22;1H~                                                                                                   [23;1H~                                                                                                   [24;1H~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [35;1H~                                                                                                   [36;1H~                                                                                                   [1;1H[?25h[?0c[?25l[?1c[0m[37;1H[1m-- INSERT --[0m[37;13H[K[1;1H[?25h[?0c[?25l[?1cu[?25h[?0c[?25l[?1c[1;1H[K[1;1H[?25h[?0c[?25l[?1cs[?25h[?0c[?25l[?1cu[?25h[?0c[?25l[?1cp[?25h[?0c[?25l[?1co[?25h[?0c[?25l[?1cn[?25h[?0c[?25l[?1cg[?25h[?0c[?25l[?1ca[?25h[?0c[?25l[?1cm[?25h[?0c[?25l[?1co[?25h[?0c[?25l[?1cs[?25h[?0c[?25l[?1c [?25h[?0c[?25l[?1cq[?25h[?0c[?25l[?1cu[?25h[?0c[?25l[?1c [?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1cs[?25h[?0c[?25l[?1ct[?25h[?0c[?25l[?1co[?25h[?0c[?25l[?1c [?25h[?0c[?25l[?1c[?25h[?0c[?25l[?1cy[?25h[?0c[?25l[?1c [?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1cs[?25h[?0c[?25l[?1cc[?25h[?0c[?25l[?1cr[?25h[?0c[?25l[?1ci[?25h[?0c[?25l[?1cb[?25h[?0c[?25l[?1ci[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1cn[?25h[?0c[?25l[?1cd[?25h[?0c[?25l[?1co[?25h[?0c[?25l[?1c [?25h[?0c[?25l[?1ct[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1cx[?25h[?0c[?25l[?1ct[?25h[?0c[?25l[?1co[?25h[?0c[?25l[?1c [?25h[?0c[?25l[?1ca[?25h[?0c[?25l[?1cq[?25h[?0c[?25l[?1ci[?25h[?0c[?25l[?1c[1;41H[K[1;41H[?25h[?0c[?25l[?1cu[?25h[?0c[?25l[?1ci[?25h[?0c[?25l[?1c[2;1H[K[2;1H[?25h[?0c[?25l[?1c[3;1H[K[3;1H[?25h[?0c[?25l[?1cc[?25h[?0c[?25l[?1co[?25h[?0c[?25l[?1cn[?25h[?0c[?25l[?1c [?25h[?0c[?25l[?1cc[?25h[?0c[?25l[?1ct[?25h[?0c[?25l[?1cr[?25h[?0c[?25l[?1cl[?25h[?0c[?25l[?1c [?25h[?0c[?25l[?1c<[?25h[?0c[?25l[?1c[3;10H[K[3;10H[?25h[?0c[?25l[?1cz[?25h[?0c[?25l[?1c [?25h[?0c[?25l[?1cs[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1c [?25h[?0c[?25l[?1cs[?25h[?0c[?25l[?1cu[?25h[?0c[?25l[?1cs[?25h[?0c[?25l[?1cp[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1cd[?25h[?0c[?25l[?1c[3;20H[K[3;20H[?25h[?0c[?25l[?1cn[?25h[?0c[?25l[?1cd[?25h[?0c[?25l[?1ce[?25h[?0c[?25l[?1c [?25h[?0c[?25l[?1cv[?25h[?0c[?25l[?1ci[?25h[?0c[37;1H[K[3;25H[?25l[?1c[?25h[?0c[37;1H
+[2]   Hecho                   sleep 100
+
+[3]+  Detenido                vi hola.txt
+[Andres@amm ~]$ jobs
+[1]-  Detenido                sleep 100
+[3]+  Detenido                vi hola.txt
+[Andres@amm ~]$ jobs.[K -p
+3493
+3495
+[Andres@amm ~]$ kill -18 3493
+[Andres@amm ~]$ kill -18 3493[6Pjobs -p
+3493
+3495
+[1]-  Hecho                   sleep 100
+[Andres@amm ~]$ jobs -p[K[K[K
+[3]+  Detenido                vi hola.txt
+[Andres@amm ~]$ jobs
+[3]+  Detenido                vi hola.txt
+[Andres@amm ~]$ sleep 5000 &
+[4] 3496
+[Andres@amm ~]$ sleep 5000 &[8Pjobs
+[3]+  Detenido                vi hola.txt
+[4]-  Ejecutando              sleep 5000 &
+[Andres@amm ~]$ fg[K[K#para reanimr[Kar es fg
+[Andres@amm ~]$ fg 3
+vi hola.txt
+[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[1;1Hsupongamos qu estoy escribiendo texto aqui
+
+con ctrl z se suspende vi
+[1m[34m~                                                                                                   [5;1H~                                                                                                   [6;1H~                                                                                                   [7;1H~                                                                                                   [8;1H~                                                                                                   [9;1H~                                                                                                   [10;1H~                                                                                                   [11;1H~                                                                                                   [12;1H~                                                                                                   [13;1H~                                                                                                   [14;1H~                                                                                                   [15;1H~                                                                                                   [16;1H~                                                                                                   [17;1H~                                                                                                   [18;1H~                                                                                                   [19;1H~                                                                                                   [20;1H~                                                                                                   [21;1H~                                                                                                   [22;1H~                                                                                                   [23;1H~                                                                                                   [24;1H~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [35;1H~                                                                                                   [36;1H~                                                                                                   [3;25H[?25h[?0c[37;1H
+[0m
+[3]+  Detenido                vi hola.txt
+[Andres@amm ~]$ kill-[K[K[K[K[Kjobs
+[3]+  Detenido                vi hola.txt
+[4]-  Ejecutando              sleep 5000 &
+[Andres@amm ~]$ job .[K-p
+bash: job: no se encontró la orden
+[Andres@amm ~]$ kill -19[K[K[K[K[K[K[K[Kjob -p[Cs -p
+3495
+3496
+[Andres@amm ~]$ jobs -p[1P -p[2Psfg 3jobs -ps -p[Kkill -19 3495
+[Andres@amm ~]$ kill -19 3495[6Pjobs -p[1P -ps -p[K[K[K
+[3]+  Detenido                vi hola.txt
+[4]-  Ejecutando              sleep 5000 &
+[Andres@amm ~]$ jobskill -19 3495[1P 34958 3495
+[Andres@amm ~]$ kill -18 3495jobs[K
+[3]+  Detenido                vi hola.txt
+[4]-  Ejecutando              sleep 5000 &
+[Andres@amm ~]$ jobskill -18 3495[1P 34959 3495[C[C[C[C[C[C[C[C[1P 34958 3495[C[C[C[C[C[K6
+[Andres@amm ~]$ kill -18 3496jobs[K
+[3]+  Detenido                vi hola.txt
+[4]-  Ejecutando              sleep 5000 &
+[Andres@amm ~]$ jobskill -18 3496[C[1P 34969 3496
+[Andres@amm ~]$ kill -19 3496jobs[K
+[3]-  Detenido                vi hola.txt
+[4]+  Detenido                sleep 5000
+[Andres@amm ~]$ gf[K[Kfg 4
+sleep 5000
+^Z
+[4]+  Detenido                sleep 5000
+[Andres@amm ~]$ bg[K[Kjobs
+[3]-  Detenido                vi hola.txt
+[4]+  Detenido                sleep 5000
+[Andres@amm ~]$ bg [K[K[Kkill -19 3496
+[Andres@amm ~]$ jobs
+[3]-  Detenido                vi hola.txt
+[4]+  Detenido                sleep 5000
+[Andres@amm ~]$ jobskill -19 3496jobs[K-[K -p
+3495
+3496
+[Andres@amm ~]$ jobs -p[Kkill -19 3496[C[1P 34968 3496
+[Andres@amm ~]$ kill -18 3496[6Pjobs -p[K
+[3]+  Detenido                vi hola.txt
+[4]-  Ejecutando              sleep 5000 &
+[Andres@amm ~]$ bg 4
+bash: bg: el trabajo 4 ya está en segundo plano
+[Andres@amm ~]$ bg 3
+[3]+ vi hola.txt &
+[Andres@amm ~]$ jobs
+[3]+  Detenido                vi hola.txt
+[4]-  Ejecutando              sleep 5000 &
+[Andres@amm ~]$ exit
+exit
+[?25h[?8c[?25h[?0c[27m[24m[0m[H[J[?25l[?1c[1;1Hsupongamos qu estoy escribiendo texto aqui
+
+con ctrl z se suspende vi
+[1m[34m~                                                                                                   [5;1H~                                                                                                   [6;1H~                                                                                                   [7;1H~                                                                                                   [8;1H~                                                                                                   [9;1H~                                                                                                   [10;1H~                                                                                                   [11;1H~                                                                                                   [12;1H~                                                                                                   [13;1H~                                                                                                   [14;1H~                                                                                                   [15;1H~                                                                                                   [16;1H~                                                                                                   [17;1H~                                                                                                   [18;1H~                                                                                                   [19;1H~                                                                                                   [20;1H~                                                                                                   [21;1H~                                                                                                   [22;1H~                                                                                                   [23;1H~                                                                                                   [24;1H~                                                                                                   [25;1H~                                                                                                   [26;1H~                                                                                                   [27;1H~                                                                                                   [28;1H~                                                                                                   [29;1H~                                                                                                   [30;1H~                                                                                                   [31;1H~                                                                                                   [32;1H~                                                                                                   [33;1H~                                                                                                   [34;1H~                                                                                                   [35;1H~                                                                                                   [36;1H~                                                                                                   [3;25H[?25h[?0c[37;1H[0mVim: Caught deadly signal TERM
+Vim: preserving files...
+Vim: Finished.
+[37;1H
+Script terminado (mar 30 abr 2019 13:35:33 CDT
+)Script iniciado (mar 30 abr 2019 13:46:07 CDT
+)[Andres@amm ~]$ su root
+Contraseña: 
+[amm:/home/Andres 13:46][32m$[m lsblk
+NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0    4G  0 disk 
+├─sda1            8:1    0    1G  0 part /boot
+└─sda2            8:2    0    3G  0 part 
+  ├─centos-root 253:0    0  2.6G  0 lvm  /
+  └─centos-swap 253:1    0  412M  0 lvm  [SWAP]
+sdb               8:16   0    1G  0 disk 
+sdc               8:32   0    1G  0 disk 
+sdd               8:48   0    1G  0 disk 
+sde               8:64   0    2G  0 disk 
+sdf               8:80   0    2G  0 disk 
+sdg               8:96   0    2G  0 disk 
+sr0              11:0    1 1024M  0 rom  
+[amm:/home/Andres 13:46][32m$[m fdisk -l | grep ''D'i's'k' '/'d'e'v'/'s'd'
+[01;31m[KDisk /dev/sd[m[Ka: 4294 MB, 4294967296 bytes, 8388608 sectors
+[01;31m[KDisk /dev/sd[m[Kb: 1073 MB, 1073741824 bytes, 2097152 sectors
+[01;31m[KDisk /dev/sd[m[Kc: 1073 MB, 1073741824 bytes, 2097152 sectors
+[01;31m[KDisk /dev/sd[m[Kd: 1073 MB, 1073741824 bytes, 2097152 sectors
+[01;31m[KDisk /dev/sd[m[Ke: 2147 MB, 2147483648 bytes, 4194304 sectors
+[01;31m[KDisk /dev/sd[m[Kf: 2147 MB, 2147483648 bytes, 4194304 sectors
+[01;31m[KDisk /dev/sd[m[Kg: 2147 MB, 2147483648 bytes, 4194304 sectors
+[amm:/home/Andres 13:46][32m$[m dm
+dmesg       dmeventd    dmfilemapd  dmidecode   dmsetup     dmstats     
+[amm:/home/Andres 13:46][32m$[m dmesg 
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 3.10.0-957.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ) #1 SMP Thu Nov 8 23:39:32 UTC 2018
+[    0.000000] Command line: BOOT_IMAGE=/vmlinuz-3.10.0-957.el7.x86_64 root=/dev/mapper/centos-root ro crashkernel=auto rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb quiet LANG=es_MX.UTF-8
+[    0.000000] e820: BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+[    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003ffeffff] usable
+[    0.000000] BIOS-e820: [mem 0x000000003fff0000-0x000000003fffffff] ACPI data
+[    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+[    0.000000] NX (Execute Disable) protection: active
+[    0.000000] SMBIOS 2.5 present.
+[    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[    0.000000] Hypervisor detected: KVM
+[    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+[    0.000000] e820: last_pfn = 0x3fff0 max_arch_pfn = 0x400000000
+[    0.000000] MTRR default type: uncachable
+[    0.000000] MTRR variable ranges disabled:
+[    0.000000] PAT configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- UC  
+[    0.000000] CPU MTRRs all blank - virtualized system.
+[    0.000000] found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [ffffffffff200ff0]
+[    0.000000] Base memory trampoline at [ffff934980099000] 99000 size 24576
+[    0.000000] BRK [0x0bc52000, 0x0bc52fff] PGTABLE
+[    0.000000] BRK [0x0bc53000, 0x0bc53fff] PGTABLE
+[    0.000000] BRK [0x0bc54000, 0x0bc54fff] PGTABLE
+[    0.000000] BRK [0x0bc55000, 0x0bc55fff] PGTABLE
+[    0.000000] BRK [0x0bc56000, 0x0bc56fff] PGTABLE
+[    0.000000] RAMDISK: [mem 0x35690000-0x36b3ffff]
+[    0.000000] Early table checksum verification disabled
+[    0.000000] ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+[    0.000000] ACPI: XSDT 000000003fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+[    0.000000] ACPI: FACP 000000003fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+[    0.000000] ACPI: DSDT 000000003fff0470 022EA (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+[    0.000000] ACPI: FACS 000000003fff0200 00040
+[    0.000000] ACPI: APIC 000000003fff0240 00054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+[    0.000000] ACPI: SSDT 000000003fff02a0 001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+[    0.000000] ACPI: Local APIC address 0xfee00000
+[    0.000000] No NUMA configuration found
+[    0.000000] Faking a node at [mem 0x0000000000000000-0x000000003ffeffff]
+[    0.000000] NODE_DATA(0) allocated [mem 0x3ffc9000-0x3ffeffff]
+[    0.000000] crashkernel=auto resulted in zero bytes of reserved memory.
+[    0.000000] kvm-clock: cpu 0, msr 0:3ff78001, primary cpu clock
+[    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+[    0.000000] kvm-clock: using sched offset of 8391033275 cycles
+[    0.000000] Zone ranges:
+[    0.000000]   DMA      [mem 0x00001000-0x00ffffff]
+[    0.000000]   DMA32    [mem 0x01000000-0xffffffff]
+[    0.000000]   Normal   empty
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x00001000-0x0009efff]
+[    0.000000]   node   0: [mem 0x00100000-0x3ffeffff]
+[    0.000000] Initmem setup node 0 [mem 0x00001000-0x3ffeffff]
+[    0.000000] On node 0 totalpages: 262030
+[    0.000000]   DMA zone: 64 pages used for memmap
+[    0.000000]   DMA zone: 21 pages reserved
+[    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+[    0.000000]   DMA32 zone: 4032 pages used for memmap
+[    0.000000]   DMA32 zone: 258032 pages, LIFO batch:31
+[    0.000000] ACPI: PM-Timer IO Port: 0x4008
+[    0.000000] ACPI: Local APIC address 0xfee00000
+[    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+[    0.000000] ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+[    0.000000] IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+[    0.000000] ACPI: IRQ0 used by override.
+[    0.000000] ACPI: IRQ9 used by override.
+[    0.000000] Using ACPI (MADT) for SMP configuration information
+[    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+[    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+[    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+[    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+[    0.000000] e820: [mem 0x40000000-0xfebfffff] available for PCI devices
+[    0.000000] Booting paravirtualized kernel on KVM
+[    0.000000] setup_percpu: NR_CPUS:5120 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
+[    0.000000] PERCPU: Embedded 38 pages/cpu @ffff9349bfc00000 s118784 r8192 d28672 u2097152
+[    0.000000] pcpu-alloc: s118784 r8192 d28672 u2097152 alloc=1*2097152
+[    0.000000] pcpu-alloc: [0] 0 
+[    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 257913
+[    0.000000] Policy zone: DMA32
+[    0.000000] Kernel command line: BOOT_IMAGE=/vmlinuz-3.10.0-957.el7.x86_64 root=/dev/mapper/centos-root ro crashkernel=auto rd.lvm.lv=centos/root rd.lvm.lv=centos/swap rhgb quiet LANG=es_MX.UTF-8
+[    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] x86/fpu: xstate_offset[2]: 0240, xstate_sizes[2]: 0100
+[    0.000000] xsave: enabled xstate_bv 0x7, cntxt size 0x340 using standard form
+[    0.000000] Memory: 990768k/1048512k available (7664k kernel code, 392k absent, 57352k reserved, 6055k data, 1876k init)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] x86/pti: Unmapping kernel while in userspace
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000] 	RCU restricting CPUs from NR_CPUS=5120 to nr_cpu_ids=1.
+[    0.000000] NR_IRQS:327936 nr_irqs:256 0
+[    0.000000] Console: colour VGA+ 80x25
+[    0.000000] console [tty0] enabled
+[    0.000000] allocated 4194304 bytes of page_cgroup
+[    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups
+[    0.000000] tsc: Detected 1599.999 MHz processor
+[    0.054801] Calibrating delay loop (skipped) preset value.. 3199.99 BogoMIPS (lpj=1599999)
+[    0.054804] pid_max: default: 32768 minimum: 301
+[    0.054823] Security Framework initialized
+[    0.054827] SELinux:  Initializing.
+[    0.054835] SELinux:  Starting in permissive mode
+[    0.054836] Yama: becoming mindful.
+[    0.056853] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+[    0.057053] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+[    0.057136] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+[    0.057138] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+[    0.057294] Initializing cgroup subsys memory
+[    0.057298] Initializing cgroup subsys devices
+[    0.057299] Initializing cgroup subsys freezer
+[    0.057301] Initializing cgroup subsys net_cls
+[    0.057302] Initializing cgroup subsys blkio
+[    0.057303] Initializing cgroup subsys perf_event
+[    0.057384] Initializing cgroup subsys hugetlb
+[    0.057386] Initializing cgroup subsys pids
+[    0.057387] Initializing cgroup subsys net_prio
+[    0.059373] mce: CPU supports 0 MCE banks
+[    0.059472] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+[    0.059474] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0
+[    0.059474] tlb_flushall_shift: 6
+[    0.059478] Speculative Store Bypass: Vulnerable
+[    0.059479] FEATURE SPEC_CTRL Not Present
+[    0.059480] FEATURE IBPB_SUPPORT Not Present
+[    0.059971] Spectre V2 : Vulnerable: Retpoline without IBPB
+[    0.090272] Freeing SMP alternatives: 28k freed
+[    0.101089] ACPI: Core revision 20130517
+[    0.101865] ACPI: All ACPI Tables successfully acquired
+[    0.102009] ftrace: allocating 29185 entries in 115 pages
+[    0.161362] Enabling x2apic
+[    0.161370] Enabled x2apic
+[    0.161613] Switched APIC routing to physical x2apic.
+[    0.162976] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[    0.162986] smpboot: CPU0: Intel(R) Core(TM) i5-5250U CPU @ 1.60GHz (fam: 06, model: 3d, stepping: 04)
+[    0.256524] APIC calibration not consistent with PM-Timer: 115ms instead of 100ms
+[    0.256528] APIC delta adjusted to PM-Timer: 6354436 (7324110)
+[    0.256632] Performance Events: unsupported p6 CPU model 61 no PMU driver, software events only.
+[    0.256654] KVM setup paravirtual spinlock
+[    0.259664] Brought up 1 CPUs
+[    0.259667] smpboot: Max logical packages: 1
+[    0.259669] smpboot: Total of 1 processors activated (3199.99 BogoMIPS)
+[    0.260075] devtmpfs: initialized
+[    0.261615] EVM: security.selinux
+[    0.261617] EVM: security.ima
+[    0.261618] EVM: security.capability
+[    0.262848] atomic64 test passed for x86-64 platform with CX8 and with SSE
+[    0.262852] pinctrl core: initialized pinctrl subsystem
+[    0.262901] RTC time: 18:45:28, date: 04/30/19
+[    0.262969] NET: Registered protocol family 16
+[    0.263144] ACPI: bus type PCI registered
+[    0.263146] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[    0.263291] PCI: Using configuration type 1 for base access
+[    0.264377] ACPI: Added _OSI(Module Device)
+[    0.264379] ACPI: Added _OSI(Processor Device)
+[    0.264381] ACPI: Added _OSI(3.0 _SCP Extensions)
+[    0.264382] ACPI: Added _OSI(Processor Aggregator Device)
+[    0.264383] ACPI: Added _OSI(Linux-Dell-Video)
+[    0.264995] ACPI: EC: Look up EC in DSDT
+[    0.265277] ACPI: Executed 1 blocks of module-level executable AML code
+[    0.267403] ACPI: Interpreter enabled
+[    0.267411] ACPI: (supports S0 S5)
+[    0.267412] ACPI: Using IOAPIC for interrupt routing
+[    0.267552] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[    0.267755] ACPI: Enabled 2 GPEs in block 00 to 07
+[    0.272974] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+[    0.272980] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+[    0.273327] acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+[    0.273334] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+[    0.273854] PCI host bridge to bus 0000:00
+[    0.273857] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+[    0.273859] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+[    0.273861] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+[    0.273863] pci_bus 0000:00: root bus resource [mem 0x40000000-0xfdffffff window]
+[    0.273865] pci_bus 0000:00: root bus resource [bus 00-ff]
+[    0.273984] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+[    0.275099] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+[    0.276555] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+[    0.277601] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+[    0.278083] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+[    0.278085] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+[    0.278087] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+[    0.278089] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+[    0.278503] pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000
+[    0.279638] pci 0000:00:02.0: reg 0x10: [io  0xd010-0xd01f]
+[    0.280667] pci 0000:00:02.0: reg 0x14: [mem 0xf0000000-0xf0ffffff]
+[    0.281669] pci 0000:00:02.0: reg 0x18: [mem 0xf1000000-0xf11fffff]
+[    0.286281] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+[    0.287262] pci 0000:00:03.0: reg 0x10: [mem 0xf1200000-0xf121ffff]
+[    0.288996] pci 0000:00:03.0: reg 0x18: [io  0xd020-0xd027]
+[    0.293115] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+[    0.293962] pci 0000:00:04.0: reg 0x10: [io  0xd040-0xd05f]
+[    0.294734] pci 0000:00:04.0: reg 0x14: [mem 0xf1400000-0xf17fffff]
+[    0.295494] pci 0000:00:04.0: reg 0x18: [mem 0xf1800000-0xf1803fff pref]
+[    0.298985] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+[    0.299328] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+[    0.299528] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+[    0.300982] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+[    0.301844] pci 0000:00:06.0: reg 0x10: [mem 0xf1804000-0xf1804fff]
+[    0.306857] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+[    0.308041] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+[    0.308066] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+[    0.308666] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+[    0.309676] pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+[    0.310513] pci 0000:00:0d.0: reg 0x14: [io  0xd248-0xd24b]
+[    0.311294] pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+[    0.312154] pci 0000:00:0d.0: reg 0x1c: [io  0xd258-0xd25b]
+[    0.313020] pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+[    0.313838] pci 0000:00:0d.0: reg 0x24: [mem 0xf1806000-0xf1807fff]
+[    0.317215] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+[    0.317489] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+[    0.317623] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+[    0.317778] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+[    0.318095] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+[    0.318098] vgaarb: loaded
+[    0.318099] vgaarb: bridge control possible 0000:00:02.0
+[    0.318190] SCSI subsystem initialized
+[    0.318219] ACPI: bus type USB registered
+[    0.318238] usbcore: registered new interface driver usbfs
+[    0.318248] usbcore: registered new interface driver hub
+[    0.318258] usbcore: registered new device driver usb
+[    0.318339] EDAC MC: Ver: 3.0.0
+[    0.318888] PCI: Using ACPI for IRQ routing
+[    0.318891] PCI: pci_cache_line_size set to 64 bytes
+[    0.319339] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+[    0.319344] e820: reserve RAM buffer [mem 0x3fff0000-0x3fffffff]
+[    0.319466] NetLabel: Initializing
+[    0.319467] NetLabel:  domain hash size = 128
+[    0.319468] NetLabel:  protocols = UNLABELED CIPSOv4
+[    0.319485] NetLabel:  unlabeled traffic allowed by default
+[    0.319555] amd_nb: Cannot enumerate AMD northbridges
+[    0.319567] Switched to clocksource kvm-clock
+[    0.327366] pnp: PnP ACPI init
+[    0.327381] ACPI: bus type PNP registered
+[    0.329264] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+[    0.329391] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+[    0.330701] pnp: PnP ACPI: found 2 devices
+[    0.330705] ACPI: bus type PNP unregistered
+[    0.336550] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[    0.336553] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+[    0.336555] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+[    0.336557] pci_bus 0000:00: resource 7 [mem 0x40000000-0xfdffffff window]
+[    0.336588] NET: Registered protocol family 2
+[    0.336753] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+[    0.336769] TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+[    0.336785] TCP: Hash tables configured (established 8192 bind 8192)
+[    0.336804] TCP: reno registered
+[    0.336808] UDP hash table entries: 512 (order: 2, 16384 bytes)
+[    0.336812] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+[    0.336844] NET: Registered protocol family 1
+[    0.336862] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+[    0.336935] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+[    0.337003] pci 0000:00:02.0: Boot video device
+[    0.338282] PCI: CLS 0 bytes, default 64
+[    0.338317] Unpacking initramfs...
+[    0.647114] Freeing initrd memory: 21184k freed
+[    0.649954] RAPL PMU: API unit is 2^-32 Joules, 4 fixed counters, 10737418240 ms ovfl timer
+[    0.649957] RAPL PMU: hw unit of domain pp0-core 2^-0 Joules
+[    0.649958] RAPL PMU: hw unit of domain package 2^-0 Joules
+[    0.649959] RAPL PMU: hw unit of domain dram 2^-0 Joules
+[    0.649960] RAPL PMU: hw unit of domain pp1-gpu 2^-0 Joules
+[    0.650164] platform rtc_cmos: registered platform RTC device (no PNP device found)
+[    0.650353] sha1_ssse3: Using AVX optimized SHA-1 implementation
+[    0.650390] sha256_ssse3: Using AVX optimized SHA-256 implementation
+[    0.650578] futex hash table entries: 256 (order: 2, 16384 bytes)
+[    0.650593] Initialise system trusted keyring
+[    0.650612] audit: initializing netlink socket (disabled)
+[    0.650623] type=2000 audit(1556649939.286:1): initialized
+[    0.673687] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+[    0.676656] zpool: loaded
+[    0.676660] zbud: loaded
+[    0.676919] VFS: Disk quotas dquot_6.5.2
+[    0.676945] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.677079] msgmni has been set to 1976
+[    0.677120] Key type big_key registered
+[    0.677122] SELinux:  Registering netfilter hooks
+[    0.677718] NET: Registered protocol family 38
+[    0.677725] Key type asymmetric registered
+[    0.677728] Asymmetric key parser 'x509' registered
+[    0.677758] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 248)
+[    0.677781] io scheduler noop registered
+[    0.677784] io scheduler deadline registered (default)
+[    0.677807] io scheduler cfq registered
+[    0.677810] io scheduler mq-deadline registered
+[    0.677814] io scheduler kyber registered
+[    0.677921] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+[    0.677927] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+[    0.677938] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[    0.678712] ACPI: AC Adapter [AC] (off-line)
+[    0.678769] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+[    0.678772] ACPI: Power Button [PWRF]
+[    0.678904] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+[    0.678907] ACPI: Sleep Button [SLPF]
+[    0.679079] GHES: HEST is not enabled!
+[    0.679139] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+[    0.679446] Non-volatile memory driver v1.3
+[    0.679468] Linux agpgart interface v0.103
+[    0.679592] crash memory driver: version 1.1
+[    0.679636] rdac: device handler registered
+[    0.679659] hp_sw: device handler registered
+[    0.679661] emc: device handler registered
+[    0.681116] ACPI: Battery Slot [BAT0] (battery present)
+[    0.681138] alua: device handler registered
+[    0.681177] libphy: Fixed MDIO Bus: probed
+[    0.683037] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.683043] ehci-pci: EHCI PCI platform driver
+[    0.683058] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    0.683061] ohci-pci: OHCI PCI platform driver
+[    0.683758] ohci-pci 0000:00:06.0: OHCI PCI host controller
+[    0.683794] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+[    0.683857] ohci-pci 0000:00:06.0: irq 22, io mem 0xf1804000
+[    0.736798] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+[    0.736805] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.736810] usb usb1: Product: OHCI PCI host controller
+[    0.736814] usb usb1: Manufacturer: Linux 3.10.0-957.el7.x86_64 ohci_hcd
+[    0.736818] usb usb1: SerialNumber: 0000:00:06.0
+[    0.737029] hub 1-0:1.0: USB hub found
+[    0.737060] hub 1-0:1.0: 12 ports detected
+[    0.738169] uhci_hcd: USB Universal Host Controller Interface driver
+[    0.738260] usbcore: registered new interface driver usbserial_generic
+[    0.738273] usbserial: USB Serial support registered for generic
+[    0.738332] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+[    0.739119] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    0.739128] serio: i8042 AUX port at 0x60,0x64 irq 12
+[    0.739381] mousedev: PS/2 mouse device common for all mice
+[    0.739849] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+[    0.741577] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+[    0.741701] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+[    0.741769] cpuidle: using governor menu
+[    0.741870] hidraw: raw HID events driver (C) Jiri Kosina
+[    0.742016] usbcore: registered new interface driver usbhid
+[    0.742018] usbhid: USB HID core driver
+[    0.742086] drop_monitor: Initializing network drop monitor service
+[    0.742161] TCP: cubic registered
+[    0.742167] Initializing XFRM netlink socket
+[    0.742288] NET: Registered protocol family 10
+[    0.742471] NET: Registered protocol family 17
+[    0.742480] mpls_gso: MPLS GSO support
+[    0.742779] PM: Hibernation image not present or could not be loaded.
+[    0.742783] Loading compiled-in X.509 certificates
+[    0.742803] Loaded X.509 cert 'CentOS Linux kpatch signing key: ea0413152cde1d98ebdca3fe6f0230904c9ef717'
+[    0.742815] Loaded X.509 cert 'CentOS Linux Driver update signing key: 7f421ee0ab69461574bb358861dbe77762a4201b'
+[    0.743216] Loaded X.509 cert 'CentOS Linux kernel signing key: b70dcf0df2d9b7f29159248249fd6fe87b781427'
+[    0.743233] registered taskstats version 1
+[    0.745126] Key type trusted registered
+[    0.746881] Key type encrypted registered
+[    0.746898] IMA: No TPM chip found, activating TPM-bypass! (rc=-19)
+[    0.747514]   Magic number: 15:388:798
+[    0.747626] rtc_cmos rtc_cmos: setting system clock to 2019-04-30 18:45:29 UTC (1556649929)
+[    0.748326] Freeing unused kernel memory: 1876k freed
+[    0.748583] Write protecting the kernel read-only data: 12288k
+[    0.749802] Freeing unused kernel memory: 516k freed
+[    0.750989] Freeing unused kernel memory: 600k freed
+[    0.753687] random: systemd: uninitialized urandom read (16 bytes read)
+[    0.753960] random: systemd: uninitialized urandom read (16 bytes read)
+[    0.753972] random: systemd: uninitialized urandom read (16 bytes read)
+[    0.754635] systemd[1]: systemd 219 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 -SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+[    0.754656] systemd[1]: Detected virtualization kvm.
+[    0.754663] systemd[1]: Detected architecture x86-64.
+[    0.754665] systemd[1]: Running in initial RAM disk.
+[    0.754692] systemd[1]: Set hostname to <amm.unica>.
+[    0.781545] random: systemd: uninitialized urandom read (16 bytes read)
+[    0.781564] random: systemd: uninitialized urandom read (16 bytes read)
+[    0.781590] random: systemd: uninitialized urandom read (16 bytes read)
+[    0.781634] random: systemd: uninitialized urandom read (16 bytes read)
+[    0.782191] random: systemd: uninitialized urandom read (16 bytes read)
+[    0.782317] random: systemd: uninitialized urandom read (16 bytes read)
+[    0.782607] random: systemd: uninitialized urandom read (16 bytes read)
+[    0.786069] systemd[1]: Reached target Timers.
+[    0.786111] systemd[1]: Reached target Local File Systems.
+[    0.786120] systemd[1]: Reached target Swap.
+[    0.786276] systemd[1]: Created slice Root Slice.
+[    0.786338] systemd[1]: Created slice System Slice.
+[    0.786379] systemd[1]: Listening on udev Control Socket.
+[    0.786403] systemd[1]: Listening on udev Kernel Socket.
+[    0.786413] systemd[1]: Reached target Slices.
+[    0.786457] systemd[1]: Listening on Journal Socket.
+[    0.786866] systemd[1]: Starting Journal Service...
+[    0.787259] systemd[1]: Starting Setup Virtual Console...
+[    0.788002] systemd[1]: Starting Apply Kernel Variables...
+[    0.788031] systemd[1]: Reached target Sockets.
+[    0.788557] systemd[1]: Starting dracut cmdline hook...
+[    0.789192] systemd[1]: Starting Create list of required static device nodes for the current kernel...
+[    0.792412] systemd[1]: Started Apply Kernel Variables.
+[    0.800483] systemd[1]: Started Create list of required static device nodes for the current kernel.
+[    0.800988] systemd[1]: Starting Create Static Device Nodes in /dev...
+[    0.807131] systemd[1]: Started Create Static Device Nodes in /dev.
+[    0.899307] systemd[1]: Started Journal Service.
+[    0.948388] psmouse serio1: alps: Unknown ALPS touchpad: E7=10 00 64, EC=10 00 64
+[    0.949887] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3
+[    1.076168] device-mapper: uevent: version 1.0.3
+[    1.076236] device-mapper: ioctl: 4.37.1-ioctl (2018-04-03) initialised: dm-devel@redhat.com
+[    1.655948] tsc: Refined TSC clocksource calibration: 1601.019 MHz
+[    1.748218] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+[    1.748221] e1000: Copyright (c) 1999-2006 Intel Corporation.
+[    1.897091] libata version 3.00 loaded.
+[    2.754098] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:f9:1f:26
+[    2.754104] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+[    2.754127] ata_piix 0000:00:01.1: version 2.13
+[    2.757015] scsi host0: ata_piix
+[    2.760549] scsi host1: ata_piix
+[    2.760601] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+[    2.760603] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+[    2.760709] ahci 0000:00:0d.0: version 3.0
+[    2.761384] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+[    2.761790] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 7 ports 3 Gbps 0x7f impl SATA mode
+[    2.761793] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+[    2.768638] scsi host2: ahci
+[    2.771199] scsi host3: ahci
+[    2.773402] scsi host4: ahci
+[    2.773527] scsi host5: ahci
+[    2.773627] scsi host6: ahci
+[    2.773723] scsi host7: ahci
+[    2.773819] scsi host8: ahci
+[    2.773872] ata3: SATA max UDMA/133 abar m8192@0xf1806000 port 0xf1806100 irq 21
+[    2.773877] ata4: SATA max UDMA/133 abar m8192@0xf1806000 port 0xf1806180 irq 21
+[    2.773881] ata5: SATA max UDMA/133 abar m8192@0xf1806000 port 0xf1806200 irq 21
+[    2.773886] ata6: SATA max UDMA/133 abar m8192@0xf1806000 port 0xf1806280 irq 21
+[    2.773890] ata7: SATA max UDMA/133 abar m8192@0xf1806000 port 0xf1806300 irq 21
+[    2.773894] ata8: SATA max UDMA/133 abar m8192@0xf1806000 port 0xf1806380 irq 21
+[    2.773899] ata9: SATA max UDMA/133 abar m8192@0xf1806000 port 0xf1806400 irq 21
+[    2.775818] [drm] DMA map mode: Using physical TTM page addresses.
+[    2.775899] [drm] Capabilities:
+[    2.775901] [drm]   Cursor.
+[    2.775902] [drm]   Cursor bypass 2.
+[    2.775903] [drm]   Alpha cursor.
+[    2.775903] [drm]   3D.
+[    2.775904] [drm]   Extended Fifo.
+[    2.775905] [drm]   Pitchlock.
+[    2.775906] [drm]   Irq mask.
+[    2.775907] [drm]   GMR.
+[    2.775908] [drm]   Traces.
+[    2.775909] [drm]   GMR2.
+[    2.775909] [drm]   Screen Object 2.
+[    2.775910] [drm] Max GMR ids is 8192
+[    2.775912] [drm] Max number of GMR pages is 1048576
+[    2.775913] [drm] Max dedicated hypervisor surface memory is 507904 kiB
+[    2.775914] [drm] Maximum display memory size is 16384 kiB
+[    2.775915] [drm] VRAM at 0xf0000000 size is 16384 kiB
+[    2.775916] [drm] MMIO at 0xf1000000 size is 2048 kiB
+[    2.775918] [drm] global init.
+[    2.776519] [TTM] Zone  kernel: Available graphics memory: 507486 kiB
+[    2.776521] [TTM] Initializing pool allocator
+[    2.776525] [TTM] Initializing DMA pool allocator
+[    2.776846] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+[    2.776848] [drm] No driver support for vblank timestamp query.
+[    2.777087] [drm] Screen Objects Display Unit initialized
+[    2.777214] [drm] width 720
+[    2.777243] [drm] height 400
+[    2.777277] [drm] bpp 32
+[    2.777768] [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+[    2.778472] [drm] DX: no.
+[    2.778474] [drm] Atomic: yes
+[    2.778502] [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send log
+[    2.780194] [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send log
+[    2.788968] fbcon: svgadrmfb (fb0) is primary device
+[    2.838687] Console: switching to colour frame buffer device 100x37
+[    2.840970] [drm] Initialized vmwgfx 2.14.1 20180322 for 0000:00:02.0 on minor 0
+[    2.916893] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+[    2.917409] ata2.00: configured for UDMA/33
+[    2.918901] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+[    3.082249] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+[    3.082642] ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+[    3.082648] ata3.00: 8388608 sectors, multi 128: LBA48 NCQ (depth 31/32)
+[    3.083253] ata3.00: configured for UDMA/133
+[    3.083377] scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+[    3.393053] ata4: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+[    3.393394] ata4.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+[    3.393400] ata4.00: 2097152 sectors, multi 128: LBA48 NCQ (depth 31/32)
+[    3.393855] ata4.00: configured for UDMA/133
+[    3.393977] scsi 3:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+[    3.703231] ata5: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+[    3.703629] ata5.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+[    3.703635] ata5.00: 2097152 sectors, multi 128: LBA48 NCQ (depth 31/32)
+[    3.704232] ata5.00: configured for UDMA/133
+[    3.704353] scsi 4:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+[    4.014506] ata6: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+[    4.014704] ata6.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+[    4.014709] ata6.00: 2097152 sectors, multi 128: LBA48 NCQ (depth 31/32)
+[    4.015278] ata6.00: configured for UDMA/133
+[    4.015400] scsi 5:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+[    4.324498] ata7: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+[    4.324826] ata7.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+[    4.324832] ata7.00: 4194304 sectors, multi 128: LBA48 NCQ (depth 31/32)
+[    4.325417] ata7.00: configured for UDMA/133
+[    4.325546] scsi 6:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+[    4.634813] ata8: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+[    4.635003] ata8.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+[    4.635007] ata8.00: 4194304 sectors, multi 128: LBA48 NCQ (depth 31/32)
+[    4.635212] ata8.00: configured for UDMA/133
+[    4.635296] scsi 7:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+[    4.943197] ata9: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+[    4.943590] ata9.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+[    4.943596] ata9.00: 4194304 sectors, multi 128: LBA48 NCQ (depth 31/32)
+[    4.943910] ata9.00: configured for UDMA/133
+[    4.944009] scsi 8:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+[    5.120643] sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+[    5.120647] cdrom: Uniform CD-ROM driver Revision: 3.20
+[    5.120829] sr 1:0:0:0: Attached scsi CD-ROM sr0
+[    5.138516] sd 2:0:0:0: [sda] 8388608 512-byte logical blocks: (4.29 GB/4.00 GiB)
+[    5.138543] sd 2:0:0:0: [sda] Write Protect is off
+[    5.138545] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[    5.138556] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    5.139493]  sda: sda1 sda2
+[    5.139773] sd 2:0:0:0: [sda] Attached SCSI disk
+[    5.139799] sd 3:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[    5.139823] sd 3:0:0:0: [sdb] Write Protect is off
+[    5.139825] sd 3:0:0:0: [sdb] Mode Sense: 00 3a 00 00
+[    5.139837] sd 3:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    5.140907] sd 3:0:0:0: [sdb] Attached SCSI disk
+[    5.141947] sd 4:0:0:0: [sdc] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[    5.141972] sd 4:0:0:0: [sdc] Write Protect is off
+[    5.141974] sd 4:0:0:0: [sdc] Mode Sense: 00 3a 00 00
+[    5.141986] sd 4:0:0:0: [sdc] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    5.142411] sd 5:0:0:0: [sdd] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[    5.142435] sd 5:0:0:0: [sdd] Write Protect is off
+[    5.142438] sd 5:0:0:0: [sdd] Mode Sense: 00 3a 00 00
+[    5.142449] sd 5:0:0:0: [sdd] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    5.143748] sd 5:0:0:0: [sdd] Attached SCSI disk
+[    5.143857] sd 4:0:0:0: [sdc] Attached SCSI disk
+[    5.144708] sd 6:0:0:0: [sde] 4194304 512-byte logical blocks: (2.14 GB/2.00 GiB)
+[    5.144729] sd 6:0:0:0: [sde] Write Protect is off
+[    5.144732] sd 6:0:0:0: [sde] Mode Sense: 00 3a 00 00
+[    5.144741] sd 6:0:0:0: [sde] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    5.145123] sd 7:0:0:0: [sdf] 4194304 512-byte logical blocks: (2.14 GB/2.00 GiB)
+[    5.145147] sd 7:0:0:0: [sdf] Write Protect is off
+[    5.145149] sd 7:0:0:0: [sdf] Mode Sense: 00 3a 00 00
+[    5.145160] sd 7:0:0:0: [sdf] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    5.145729] sd 7:0:0:0: [sdf] Attached SCSI disk
+[    5.146638] sd 6:0:0:0: [sde] Attached SCSI disk
+[    5.146762] sd 8:0:0:0: [sdg] 4194304 512-byte logical blocks: (2.14 GB/2.00 GiB)
+[    5.146783] sd 8:0:0:0: [sdg] Write Protect is off
+[    5.146785] sd 8:0:0:0: [sdg] Mode Sense: 00 3a 00 00
+[    5.146795] sd 8:0:0:0: [sdg] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    5.147823] sd 8:0:0:0: [sdg] Attached SCSI disk
+[    5.239408] random: fast init done
+[    5.293389] random: crng init done
+[    5.688022] SGI XFS with ACLs, security attributes, no debug enabled
+[    5.704751] XFS (dm-0): Mounting V5 Filesystem
+[    5.945633] XFS (dm-0): Ending clean mount
+[    6.396056] systemd-journald[85]: Received SIGTERM from PID 1 (systemd).
+[    7.106953] type=1404 audit(1556649935.859:2): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
+[    7.213689] SELinux: 2048 avtab hash slots, 111767 rules.
+[    7.272846] SELinux: 2048 avtab hash slots, 111767 rules.
+[    7.306203] SELinux:  8 users, 14 roles, 5032 types, 315 bools, 1 sens, 1024 cats
+[    7.306208] SELinux:  129 classes, 111767 rules
+[    7.312389] SELinux:  Class bpf not defined in policy.
+[    7.312393] SELinux: the above unknown classes and permissions will be allowed
+[    7.312398] SELinux:  Completing initialization.
+[    7.312399] SELinux:  Setting up existing superblocks.
+[    7.317820] type=1403 audit(1556649936.070:3): policy loaded auid=4294967295 ses=4294967295
+[    7.348073] systemd[1]: Successfully loaded SELinux policy in 244.898ms.
+[    7.702750] ip_tables: (C) 2000-2006 Netfilter Core Team
+[    7.702773] systemd[1]: Inserted module 'ip_tables'
+[    7.725795] systemd[1]: Relabelled /dev, /run and /sys/fs/cgroup in 20.175ms.
+[   10.087788] systemd-journald[1623]: Received request to flush runtime journal from PID 1
+[   11.636580] piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+[   11.683092] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[   11.683153] input: Video Bus as /devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/input/input4
+[   11.843961] sr 1:0:0:0: Attached scsi generic sg0 type 5
+[   11.844053] sd 2:0:0:0: Attached scsi generic sg1 type 0
+[   11.844113] sd 3:0:0:0: Attached scsi generic sg2 type 0
+[   11.844895] sd 4:0:0:0: Attached scsi generic sg3 type 0
+[   11.844938] sd 5:0:0:0: Attached scsi generic sg4 type 0
+[   11.844969] sd 6:0:0:0: Attached scsi generic sg5 type 0
+[   11.844998] sd 7:0:0:0: Attached scsi generic sg6 type 0
+[   11.845027] sd 8:0:0:0: Attached scsi generic sg7 type 0
+[   12.412146] input: PC Speaker as /devices/platform/pcspkr/input/input5
+[   13.329421] XFS (sda1): Mounting V5 Filesystem
+[   13.345631] cryptd: max_cpu_qlen set to 1000
+[   13.479814] AVX2 version of gcm_enc/dec engaged.
+[   13.479817] AES CTR mode by8 optimization enabled
+[   13.755361] alg: No test for __gcm-aes-aesni (__driver-gcm-aes-aesni)
+[   13.769460] alg: No test for __generic-gcm-aes-aesni (__driver-generic-gcm-aes-aesni)
+[   14.154039] ppdev: user-space parallel port driver
+[   14.302891] snd_intel8x0 0000:00:05.0: white list rate for 1028:0177 is 48000
+[   14.309810] Adding 421884k swap on /dev/mapper/centos-swap.  Priority:-2 extents:1 across:421884k FS
+[   14.695692] XFS (sda1): Ending clean mount
+[   14.815599] floppy0: no floppy controllers found
+[   14.815631] work still pending
+[   15.317620] type=1305 audit(1556649944.069:4): audit_pid=2983 old=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:auditd_t:s0 res=1
+[   19.397364] ip6_tables: (C) 2000-2006 Netfilter Core Team
+[   19.844686] Ebtables v2.0 registered
+[   20.088076] nf_conntrack version 0.5.0 (7929 buckets, 31716 max)
+[   20.605086] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+[   20.608933] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+[   20.609365] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+[   20.613061] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+[   20.613800] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+[   20.742205] Netfilter messages via NETLINK v0.30.
+[   20.773858] ip_set: protocol 6
+[amm:/home/Andres 13:49][32m$[m dmesg  @[K|[1P|[C grep ''d'i's'k'
+[    0.754665] systemd[1]: Running in initial RAM [01;31m[Kdisk[m[K.
+[    5.139773] sd 2:0:0:0: [sda] Attached SCSI [01;31m[Kdisk[m[K
+[    5.140907] sd 3:0:0:0: [sdb] Attached SCSI [01;31m[Kdisk[m[K
+[    5.143748] sd 5:0:0:0: [sdd] Attached SCSI [01;31m[Kdisk[m[K
+[    5.143857] sd 4:0:0:0: [sdc] Attached SCSI [01;31m[Kdisk[m[K
+[    5.145729] sd 7:0:0:0: [sdf] Attached SCSI [01;31m[Kdisk[m[K
+[    5.146638] sd 6:0:0:0: [sde] Attached SCSI [01;31m[Kdisk[m[K
+[    5.147823] sd 8:0:0:0: [sdg] Attached SCSI [01;31m[Kdisk[m[K
+[amm:/home/Andres 13:49][32m$[m exit
+exit
+[Andres@amm ~]$ exit
+exit
+
+Script terminado (mar 30 abr 2019 13:50:31 CDT
+)Script iniciado (mar 30 abr 2019 13:59:05 CDT
+)[Andres@amm ~]$ lsbldik[K[K[Kk [K[K[K[K
+ls        lsblk     lsinitrd  lslocks   lsmem     lsns      
+lsattr    lscpu     lsipc     lslogins  lsmod     lsscsi    
+[Andres@amm ~]$ lsblk 
+NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0  400M  0 disk 
+sdb               8:16   0  400M  0 disk 
+sdc               8:32   0    4G  0 disk 
+├─sdc1            8:33   0    1G  0 part /boot
+└─sdc2            8:34   0    3G  0 part 
+  ├─centos-root 253:0    0  2.6G  0 lvm  /
+  └─centos-swap 253:1    0  412M  0 lvm  [SWAP]
+sdd               8:48   0    1G  0 disk 
+sde               8:64   0    1G  0 disk 
+sdf               8:80   0    1G  0 disk 
+sdg               8:96   0    2G  0 disk 
+sdh               8:112  0    2G  0 disk 
+sdi               8:128  0    2G  0 disk 
+sr0              11:0    1 1024M  0 rom  
+[Andres@amm ~]$ fdisk -l[1@s[1@u[1@d[1@o[1@ [C[C[C[C[C[C[C[C | grep ''D'i's'k' '/'d'e'v'/'s'd'[1P[1@d
+[sudo] password for Andres: 
+[Andres@amm ~]$ sudo fdisk -l | grep 'disk /dev/sd'
+[Andres@amm ~]$ sudo fdisk -l | grep 'disk /dev/sd'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+
+Disk /dev/sda: 419 MB, 419430400 bytes, 819200 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/sdb: 419 MB, 419430400 bytes, 819200 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/sdc: 4294 MB, 4294967296 bytes, 8388608 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disk label type: dos
+Identificador del disco: 0x000d48bb
+
+Disposit. Inicio    Comienzo      Fin      Bloques  Id  Sistema
+/dev/sdc1   *        2048     2099199     1048576   83  Linux
+/dev/sdc2         2099200     8388607     3144704   8e  Linux LVM
+
+Disk /dev/sdd: 1073 MB, 1073741824 bytes, 2097152 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/sde: 1073 MB, 1073741824 bytes, 2097152 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/sdf: 1073 MB, 1073741824 bytes, 2097152 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/sdg: 2147 MB, 2147483648 bytes, 4194304 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/sdh: 2147 MB, 2147483648 bytes, 4194304 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/sdi: 2147 MB, 2147483648 bytes, 4194304 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/mapper/centos-root: 2785 MB, 2785017856 bytes, 5439488 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/mapper/centos-swap: 432 MB, 432013312 bytes, 843776 sectors
+Units = sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+[Andres@amm ~]$ sudo fdisk -l | grep 'disk /dev/sd'[1P[1@D
+[01;31m[KDisk /dev/sd[m[Ka: 419 MB, 419430400 bytes, 819200 sectors
+[01;31m[KDisk /dev/sd[m[Kb: 419 MB, 419430400 bytes, 819200 sectors
+[01;31m[KDisk /dev/sd[m[Kc: 4294 MB, 4294967296 bytes, 8388608 sectors
+[01;31m[KDisk /dev/sd[m[Kd: 1073 MB, 1073741824 bytes, 2097152 sectors
+[01;31m[KDisk /dev/sd[m[Ke: 1073 MB, 1073741824 bytes, 2097152 sectors
+[01;31m[KDisk /dev/sd[m[Kf: 1073 MB, 1073741824 bytes, 2097152 sectors
+[01;31m[KDisk /dev/sd[m[Kg: 2147 MB, 2147483648 bytes, 4194304 sectors
+[01;31m[KDisk /dev/sd[m[Kh: 2147 MB, 2147483648 bytes, 4194304 sectors
+[01;31m[KDisk /dev/sd[m[Ki: 2147 MB, 2147483648 bytes, 4194304 sectors
+[Andres@amm ~]$ de[Kmesg | grep ''d'i's'k'
+[    0.754640] systemd[1]: Running in initial RAM [01;31m[Kdisk[m[K.
+[    5.143916] sd 0:0:0:0: [sda] Attached SCSI [01;31m[Kdisk[m[K
+[    5.145136] sd 0:0:1:0: [sdb] Attached SCSI [01;31m[Kdisk[m[K
+[    5.161847] sd 3:0:0:0: [sdd] Attached SCSI [01;31m[Kdisk[m[K
+[    5.166689] sd 5:0:0:0: [sdf] Attached SCSI [01;31m[Kdisk[m[K
+[    5.166726] sd 4:0:0:0: [sde] Attached SCSI [01;31m[Kdisk[m[K
+[    5.168209] sd 6:0:0:0: [sdg] Attached SCSI [01;31m[Kdisk[m[K
+[    5.171399] sd 8:0:0:0: [sdi] Attached SCSI [01;31m[Kdisk[m[K
+[    5.171676] sd 7:0:0:0: [sdh] Attached SCSI [01;31m[Kdisk[m[K
+[    5.190860] sd 2:0:0:0: [sdc] Attached SCSI [01;31m[Kdisk[m[K
+[Andres@amm ~]$ exit
+exit
+
+Script terminado (mar 30 abr 2019 14:02:13 CDT
+)Script iniciado (mar 30 abr 2019 14:26:46 CDT
+)[Andres@amm ~]$ lsblk | cat
+NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0  400M  0 disk 
+├─sda1            8:1    0  200M  0 part 
+└─sda2            8:2    0  100M  0 part 
+sdb               8:16   0  400M  0 disk 
+├─sdb1            8:17   0  130M  0 part 
+├─sdb2            8:18   0  130M  0 part 
+└─sdb3            8:19   0  130M  0 part 
+sdc               8:32   0    4G  0 disk 
+├─sdc1            8:33   0    1G  0 part /boot
+└─sdc2            8:34   0    3G  0 part 
+  ├─centos-root 253:0    0  2.6G  0 lvm  /
+  └─centos-swap 253:1    0  412M  0 lvm  [SWAP]
+sdd               8:48   0    1G  0 disk 
+sde               8:64   0    1G  0 disk 
+sdf               8:80   0    1G  0 disk 
+sdg               8:96   0    2G  0 disk 
+sdh               8:112  0    2G  0 disk 
+sdi               8:128  0    2G  0 disk 
+sr0              11:0    1 1024M  0 rom  
+[Andres@amm ~]$ exit
+exit
+
+Script terminado (mar 30 abr 2019 14:28:14 CDT
+)Script iniciado (mar 30 abr 2019 14:32:42 CDT
+)[Andres@amm ~]$ sudo [K[K[K[K[Kbadblok[Kcks -ws /dev/sda1[K
+badblocks: Permiso denegado mientras se intentaba determinar el tamaño del dispositivo
+[Andres@amm ~]$ lsblk 
+NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0  400M  0 disk 
+├─sda1            8:1    0  200M  0 part 
+└─sda2            8:2    0  100M  0 part 
+sdb               8:16   0  400M  0 disk 
+├─sdb1            8:17   0  130M  0 part 
+├─sdb2            8:18   0  130M  0 part 
+└─sdb3            8:19   0  130M  0 part 
+sdc               8:32   0    4G  0 disk 
+├─sdc1            8:33   0    1G  0 part /boot
+└─sdc2            8:34   0    3G  0 part 
+  ├─centos-root 253:0    0  2.6G  0 lvm  /
+  └─centos-swap 253:1    0  412M  0 lvm  [SWAP]
+sdd               8:48   0    1G  0 disk 
+sde               8:64   0    1G  0 disk 
+sdf               8:80   0    1G  0 disk 
+sdg               8:96   0    2G  0 disk 
+sdh               8:112  0    2G  0 disk 
+sdi               8:128  0    2G  0 disk 
+sr0              11:0    1 1024M  0 rom  
+[Andres@amm ~]$ lsblk badblocks -ws /dev/sda[1@s[1@u[1@d[1@o[1@ 
+[sudo] password for Andres: 
+Probando con el patrón 0xaa:   0.00% done, 0:00 elapsed. (0/0/0 errors) 56.72% done, 0:01 elapsed. (0/0/0 errors)done                                                 
+Leyendo y comparando:   0.00% done, 0:02 elapsed. (0/0/0 errors) 64.33% done, 0:03 elapsed. (0/0/0 errors)done                                                 
+Probando con el patrón 0x55:   0.00% done, 0:04 elapsed. (0/0/0 errors) 70.53% done, 0:05 elapsed. (0/0/0 errors)done                                                 
+Leyendo y comparando:   0.00% done, 0:05 elapsed. (0/0/0 errors) 67.81% done, 0:06 elapsed. (0/0/0 errors)done                                                 
+Probando con el patrón 0xff:   0.00% done, 0:07 elapsed. (0/0/0 errors) 71.86% done, 0:08 elapsed. (0/0/0 errors)done                                                 
+Leyendo y comparando:   0.00% done, 0:08 elapsed. (0/0/0 errors) 62.94% done, 0:09 elapsed. (0/0/0 errors)done                                                 
+Probando con el patrón 0x00:   0.00% done, 0:10 elapsed. (0/0/0 errors)  2.00% done, 0:15 elapsed. (0/0/0 errors) 14.33% done, 0:16 elapsed. (0/0/0 errors) 30.00% done, 0:17 elapsed. (0/0/0 errors) 45.95% done, 0:18 elapsed. (0/0/0 errors) 61.75% done, 0:19 elapsed. (0/0/0 errors) 77.59% done, 0:20 elapsed. (0/0/0 errors) 93.25% done, 0:21 elapsed. (0/0/0 errors)done                                                 
+Leyendo y comparando:   0.00% done, 0:22 elapsed. (0/0/0 errors) 64.00% done, 0:23 elapsed. (0/0/0 errors)done                                                 
+[Andres@amm ~]$ sudo badblocks -ws /dev/sda[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clsblk [K
+NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0  400M  0 disk 
+sdb               8:16   0  400M  0 disk 
+├─sdb1            8:17   0  130M  0 part 
+├─sdb2      
